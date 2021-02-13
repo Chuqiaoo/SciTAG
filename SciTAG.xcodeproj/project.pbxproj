@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C867D4A25C5B57B0068306B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D4925C5B57B0068306B /* Login.swift */; };
-		1C867D4F25C5BA990068306B /* StaticNacToDetele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D4E25C5BA990068306B /* StaticNacToDetele.swift */; };
 		1C867D5425C5BB4F0068306B /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5325C5BB4F0068306B /* Tag.swift */; };
 		1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5725C5BDA70068306B /* TagDetail.swift */; };
 		1C867D5B25C5C3750068306B /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5A25C5C3750068306B /* MenuList.swift */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		1C867D4925C5B57B0068306B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		1C867D4E25C5BA990068306B /* StaticNacToDetele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticNacToDetele.swift; sourceTree = "<group>"; };
 		1C867D5325C5BB4F0068306B /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		1C867D5725C5BDA70068306B /* TagDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDetail.swift; sourceTree = "<group>"; };
 		1C867D5A25C5C3750068306B /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 			children = (
 				1CC52D4925BF2D4B0023F93D /* ContentView.swift */,
 				1C867D4925C5B57B0068306B /* Login.swift */,
-				1C867D4E25C5BA990068306B /* StaticNacToDetele.swift */,
 				1C867D5725C5BDA70068306B /* TagDetail.swift */,
 				1C867D5A25C5C3750068306B /* MenuList.swift */,
 				1C867D5F25C5CAF30068306B /* RecentLabels.swift */,
@@ -178,7 +175,6 @@
 				1C867D5B25C5C3750068306B /* MenuList.swift in Sources */,
 				1C867D5425C5BB4F0068306B /* Tag.swift in Sources */,
 				1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */,
-				1C867D4F25C5BA990068306B /* StaticNacToDetele.swift in Sources */,
 				1CC52D4825BF2D4B0023F93D /* SciTAGApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

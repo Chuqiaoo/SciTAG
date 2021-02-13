@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Nav: View {
+struct MenuList: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -68,8 +68,8 @@ struct Nav: View {
 }
 
 
-struct Nav_Previews: PreviewProvider {
+struct MenuList_Previews: PreviewProvider {
     static var previews: some View {
-        Nav()
+        MenuList()
     }
 }
