@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C078BBF25EAA71100F4820B /* TagV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C078BBE25EAA71100F4820B /* TagV2.swift */; };
 		1C867D4A25C5B57B0068306B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D4925C5B57B0068306B /* Login.swift */; };
 		1C867D5425C5BB4F0068306B /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5325C5BB4F0068306B /* Tag.swift */; };
 		1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5725C5BDA70068306B /* TagDetail.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C078BBE25EAA71100F4820B /* TagV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagV2.swift; sourceTree = "<group>"; };
 		1C867D4925C5B57B0068306B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		1C867D5325C5BB4F0068306B /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		1C867D5725C5BDA70068306B /* TagDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDetail.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				1C867D5725C5BDA70068306B /* TagDetail.swift */,
 				1C867D5A25C5C3750068306B /* MenuList.swift */,
 				1C867D5F25C5CAF30068306B /* RecentLabels.swift */,
+				1C078BBE25EAA71100F4820B /* TagV2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				1C867D5425C5BB4F0068306B /* Tag.swift in Sources */,
 				1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */,
 				1CC52D4825BF2D4B0023F93D /* SciTAGApp.swift in Sources */,
+				1C078BBF25EAA71100F4820B /* TagV2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
