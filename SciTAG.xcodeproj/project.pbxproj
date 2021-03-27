@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C078BBF25EAA71100F4820B /* TagV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C078BBE25EAA71100F4820B /* TagV2.swift */; };
+		1C078BBF25EAA71100F4820B /* CreateTagV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C078BBE25EAA71100F4820B /* CreateTagV2.swift */; };
+		1C1442F4260F906A00704379 /* PrinterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1442F3260F906A00704379 /* PrinterSetting.swift */; };
+		1C1442F7260F90A600704379 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1442F6260F90A600704379 /* AppSetting.swift */; };
+		1C3DF2AF260CF71200BB250E /* MV5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DF2AE260CF71200BB250E /* MV5.swift */; };
+		1C3DF2B8260D054700BB250E /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DF2B7260D054700BB250E /* Tag.swift */; };
+		1C63B2C1260BB5ED00BCEF48 /* YanV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C63B2C0260BB5ED00BCEF48 /* YanV3.swift */; };
 		1C867D4A25C5B57B0068306B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D4925C5B57B0068306B /* Login.swift */; };
-		1C867D5425C5BB4F0068306B /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5325C5BB4F0068306B /* Tag.swift */; };
-		1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5725C5BDA70068306B /* TagDetail.swift */; };
+		1C867D5825C5BDA70068306B /* CreateTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5725C5BDA70068306B /* CreateTag.swift */; };
 		1C867D5B25C5C3750068306B /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5A25C5C3750068306B /* MenuList.swift */; };
 		1C867D6025C5CAF30068306B /* RecentLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C867D5F25C5CAF30068306B /* RecentLabels.swift */; };
 		1CC52D4825BF2D4B0023F93D /* SciTAGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC52D4725BF2D4B0023F93D /* SciTAGApp.swift */; };
@@ -20,10 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C078BBE25EAA71100F4820B /* TagV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagV2.swift; sourceTree = "<group>"; };
+		1C078BBE25EAA71100F4820B /* CreateTagV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTagV2.swift; sourceTree = "<group>"; };
+		1C1442F3260F906A00704379 /* PrinterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterSetting.swift; sourceTree = "<group>"; };
+		1C1442F6260F90A600704379 /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		1C3DF2AE260CF71200BB250E /* MV5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MV5.swift; sourceTree = "<group>"; };
+		1C3DF2B7260D054700BB250E /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		1C63B2C0260BB5ED00BCEF48 /* YanV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YanV3.swift; sourceTree = "<group>"; };
 		1C867D4925C5B57B0068306B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		1C867D5325C5BB4F0068306B /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		1C867D5725C5BDA70068306B /* TagDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDetail.swift; sourceTree = "<group>"; };
+		1C867D5725C5BDA70068306B /* CreateTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTag.swift; sourceTree = "<group>"; };
 		1C867D5A25C5C3750068306B /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		1C867D5F25C5CAF30068306B /* RecentLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentLabels.swift; sourceTree = "<group>"; };
 		1CC52D4425BF2D4B0023F93D /* SciTAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SciTAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +58,14 @@
 			children = (
 				1CC52D4925BF2D4B0023F93D /* ContentView.swift */,
 				1C867D4925C5B57B0068306B /* Login.swift */,
-				1C867D5725C5BDA70068306B /* TagDetail.swift */,
+				1C867D5725C5BDA70068306B /* CreateTag.swift */,
 				1C867D5A25C5C3750068306B /* MenuList.swift */,
 				1C867D5F25C5CAF30068306B /* RecentLabels.swift */,
-				1C078BBE25EAA71100F4820B /* TagV2.swift */,
+				1C078BBE25EAA71100F4820B /* CreateTagV2.swift */,
+				1C63B2C0260BB5ED00BCEF48 /* YanV3.swift */,
+				1C3DF2AE260CF71200BB250E /* MV5.swift */,
+				1C1442F3260F906A00704379 /* PrinterSetting.swift */,
+				1C1442F6260F90A600704379 /* AppSetting.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -61,7 +73,7 @@
 		1C867D5225C5BB0E0068306B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1C867D5325C5BB4F0068306B /* Tag.swift */,
+				1C3DF2B7260D054700BB250E /* Tag.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,12 +186,16 @@
 			files = (
 				1C867D4A25C5B57B0068306B /* Login.swift in Sources */,
 				1C867D6025C5CAF30068306B /* RecentLabels.swift in Sources */,
+				1C1442F7260F90A600704379 /* AppSetting.swift in Sources */,
 				1CC52D4A25BF2D4B0023F93D /* ContentView.swift in Sources */,
 				1C867D5B25C5C3750068306B /* MenuList.swift in Sources */,
-				1C867D5425C5BB4F0068306B /* Tag.swift in Sources */,
-				1C867D5825C5BDA70068306B /* TagDetail.swift in Sources */,
+				1C63B2C1260BB5ED00BCEF48 /* YanV3.swift in Sources */,
+				1C3DF2B8260D054700BB250E /* Tag.swift in Sources */,
+				1C1442F4260F906A00704379 /* PrinterSetting.swift in Sources */,
+				1C867D5825C5BDA70068306B /* CreateTag.swift in Sources */,
 				1CC52D4825BF2D4B0023F93D /* SciTAGApp.swift in Sources */,
-				1C078BBF25EAA71100F4820B /* TagV2.swift in Sources */,
+				1C3DF2AF260CF71200BB250E /* MV5.swift in Sources */,
+				1C078BBF25EAA71100F4820B /* CreateTagV2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

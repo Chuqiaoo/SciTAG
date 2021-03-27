@@ -1,13 +1,14 @@
 //
 //  TagV2.swift
 //  SciTAG
+//  unused code, keep it for future reference
 //
 //  Created by Chuqiao Gong on 27/02/2021.
 //
 
 import SwiftUI
 
-struct TagV2: View {
+struct CreateTagV2: View {
     @State var name: String = ""
     @State private var date = Date()
     @State var user = ""
@@ -68,8 +69,8 @@ struct TagV2: View {
     }
 }
 
-struct TagV2_Previews: PreviewProvider {
+struct CreateTagV2_Previews: PreviewProvider {
     static var previews: some View {
-        TagV2()
+        CreateTagV2()
     }
 }

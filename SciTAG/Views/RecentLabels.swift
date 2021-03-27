@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecentLabels: View {
     var body: some View {
-        Text("This is recentLabels view")
+        Text("This is recent labels view")
     }
 }
 

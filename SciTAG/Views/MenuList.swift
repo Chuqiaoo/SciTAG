@@ -17,19 +17,8 @@ struct MenuList: View {
                     /*
                       CG: The code below are not following the good pratice, try to remove to duplicated code
                      */
-                    NavigationLink(destination: TagDetail()) {
+                    NavigationLink(destination: CreateTag()) {
                         Text("New labels")
-                            .padding()
-                            .padding([.leading, .trailing], 40)
-                            .foregroundColor(.white)
-                            .background(Color(red: 252 / 255, green: 81 / 255, blue: 133 / 255))
-                            .cornerRadius(25)
-                            .font(.system(size: 18, weight: .bold, design: .default))
-                            .frame(minWidth: 0, maxWidth: .infinity)
-                    }
-                    
-                    NavigationLink(destination: TagV2()) {
-                        Text("New labels V2")
                             .padding()
                             .padding([.leading, .trailing], 40)
                             .foregroundColor(.white)
@@ -50,7 +39,7 @@ struct MenuList: View {
                     }
                     
                     // todo needs a printer setting view
-                    NavigationLink(destination: TagDetail()) {
+                    NavigationLink(destination: PrinterSetting()) {
                         Text("Printer setting")
                             .padding()
                             .padding([.leading, .trailing], 40)
@@ -60,7 +49,7 @@ struct MenuList: View {
                             .font(.system(size: 18, weight: .bold, design: .default))
                     }
                     // todo needs a app setting view
-                    NavigationLink(destination: TagDetail()) {
+                    NavigationLink(destination: AppSetting()) {
                         Text("App setting")
                             .padding()
                             .padding([.leading, .trailing], 40)
